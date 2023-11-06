@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.navbar-brand:hover{
+    border-bottom: 2px solid lightgreen;
+    border-top: 4px solid rgb(220, 230, 227);
+}
+.nav-link:hover{
+    font-weight: bold;
+    border-left: 2px solid lightgreen;
+    border-bottom: 4px solid red;
+}
+
+/* FOOTER EFFECTS */
+.fa-brands:hover{
+    color: black;
+}
+footer ul li a:hover{
+    font-weight: bold;
+    border-bottom: 4px solid red;
+}
+
+/* Carousel */
+.carousel-inner{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-item img{
+    height: 100%;
+}
+
+
+
+/* media query */
+
+@media screen and (max-width:1440px){
+    .carousel-inner{
+        /* height:0vh; */
+        height:500px;
+    }
+    .carousel-inner img{
+        height:500px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .carousel-inner{
+        height:100vh;
+        height:400px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .carousel-inner{
+        height: 50vh;
+    }
+    .carousel-item img{
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width:425px){
+    .carousel-inner{
+        height: 50vh;
+    }
+    .carousel-item img{
+        height: 80vh;
+    }
+} 
+@media screen and (max-width:320px){
+    .carousel-inner{
+        height: 50vh;
+    }
+    .carousel-item img{
+        height: 70vh;
+    }
+    
+} 
